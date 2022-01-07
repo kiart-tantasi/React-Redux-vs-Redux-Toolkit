@@ -18,7 +18,8 @@ export default function CounterPureRedux() {
     }
 
     function handleReset() {
-        dispatch({type:"reset"});
+        dispatch({type:"resetCounter"});
+        dispatch({type:"resetColor"});
     }
 
     function handlePlusFive() {

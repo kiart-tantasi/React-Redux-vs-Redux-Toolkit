@@ -12,6 +12,9 @@ const colorSlice = createSlice({
         },
         blue(state) {
             state.color = "blue"
+        },
+        reset(state) {
+            state.color = "#000"
         }
     }
 });

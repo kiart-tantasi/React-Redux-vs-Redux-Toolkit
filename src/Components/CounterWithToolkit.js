@@ -20,6 +20,7 @@ export default function Counter() {
 
     function handleReset() {
         dispatch(counterActions.reset(100));
+        dispatch(colorActions.reset());
     }
 
     function handlePlusTen() {
